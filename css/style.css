@@ -1,0 +1,158 @@
+.Header{
+    width:100%;
+    box-shadow: 0px 15px 20px 0px rgba(0,0,0,0.05); /* 影の設定 */
+}
+
+.HeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 36px 0 36px;
+    padding: 20px 0;
+    max-width: 100%;
+    position: relative;
+}
+
+.HeaderLogoImage{
+    height: 20px;
+    width: auto;
+    display: block;
+
+}
+
+.HeaderNavilist{
+    align-items: center;
+    display: flex;
+    list-style:none;
+    padding:0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.HeaderNavilistItem{
+    margin-right: 45px;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+.HeaderNavilistItem .link > span{
+    display:block;
+    font-weight: 700;
+    text-align: center;
+}
+
+.button{
+    align-items:center;
+    background-color: orange;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    font-size: 12px;
+    height: 40px;
+    padding: 0 20px;
+}
+
+body{
+    margin:0;
+}
+
+.FirstViewContainer{
+    max-width:1040px;
+    margin:0 auto;
+    padding: 0 40px;
+    position:relative;
+}
+
+.FirstView{
+    position: relative;
+    height: 739px;
+    overflow: hidden;
+}
+
+.FirstViewLeft{
+    max-width:600px;
+    padding-top:140px;
+    position:relative;
+}
+
+.left-bg{
+    top: -70px;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.main-visual{
+    position:absolute;
+    right:0;
+    top:-70px;
+    max-width:775px;
+    width: 55%;
+    z-index:-1;
+}
+
+.fill-rectangle{
+    position:absolute;
+    top:84px;
+    left:-70px;
+    z-index:-1;
+}
+
+.right-bg{
+    position:absolute;
+    right:0;
+    bottom:70px;
+    z-index:-1;
+}
+
+.FirstViewLeft_title{
+    color: #333;
+    font-family: "Lato", sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 64px;
+    margin-bottom: 16px;
+}
+
+.badge{
+    position: absolute;
+    top: 30px;
+    right: -150px;
+}
+.cta-btn{
+    align-items: center;
+    background-color: #F79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 64px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.caption{
+    font-size: 12px;
+    line-height: 16px;
+}
+
+p {
+    color: #333;
+}
